@@ -14,6 +14,8 @@ body {
 }
 
 #search-history li {
+    margin: 10px;
+    cursor: pointer;
     padding: 10px;
     border-bottom: 1px solid #ccc;
     cursor: pointer;
@@ -21,4 +23,8 @@ body {
 
 #search-history li:hover {
     background-color: #f0f0f0;
+}
+
+#current-image-container{
+    background-color: black;
 }
